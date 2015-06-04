@@ -18,11 +18,13 @@ def shift_cypher(value, orig):
 
 	return finish
 
-# String Translate Method:
 
-shift = string.maketrans("abcdefghijklmnopqrstuvwxyz", "cdefghijklmnopqrstuvwxyzab")
-print solve.translate(shift)
+def trans():
+	
+	shift = string.maketrans("abcdefghijklmnopqrstuvwxyz", "cdefghijklmnopqrstuvwxyzab")
+	print solve.translate(shift)
 
-# Shift Cypher Method:
 
-print shift_cypher(2, solve)
+
+# print shift_cypher(2, solve)
+# trans()
