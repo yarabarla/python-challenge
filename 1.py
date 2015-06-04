@@ -1,3 +1,5 @@
+# http://www.pythonchallenge.com/pc/def/map.html
+
 import string
 
 solve = "pythonchallenge.com/pc/def/map.html" 

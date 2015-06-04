@@ -1,3 +1,5 @@
+# http://www.pythonchallenge.com/pc/def/ocr.html
+
 import sys, re
 
 file_ob = open("2.dat", 'r')

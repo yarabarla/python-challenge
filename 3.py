@@ -1,3 +1,5 @@
+# http://www.pythonchallenge.com/pc/def/equality.html
+
 import re
 
 file_ob = open("3.dat", 'r')
