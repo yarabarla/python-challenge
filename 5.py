@@ -10,8 +10,9 @@ banner = pickle.loads(text)
 final = []
 
 for index, value in enumerate(banner):
-    line = []
     for j in value:
-        line.append(j[0] * j[1])
-        final.append("".join(line))
+        final.append("".join(j[0] * j[1]))
+
     final.append('\n')
+
+print "".join(final)
